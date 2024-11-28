@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.header {
+    background-color: #6a5acd; 
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 24px;
+}
+
+.main-container {
+    display: flex;
+}
+
+.sidebar {
+    background-color: #6a5acd;
+    color: white;
+    width: 200px;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar .profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.nav-menu ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.nav-menu ul li {
+    padding: 10px 20px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.nav-menu ul li:hover {
+    background-color: #7d70db;
+}
+
+.footer-menu {
+    margin-top: auto;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.content h2 {
+    margin-top: 0;
+}
+
+.assignments, .messages {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.assignment-card, .message-card {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}

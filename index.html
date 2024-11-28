@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>School Login</title>
     <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script> <!-- Add 'defer' to ensure JS runs after the DOM loads -->
 </head>
 <body>
     <div class="header">
         <h1>School Name</h1>
     </div>
-                <img src="logo.png" alt="School Logo" class="logo">
-        </div>
+    <img src="logo.png" alt="School Logo" class="logo">
     <div class="container">
-
         <input type="text" placeholder="Username" name="username">
         <input type="password" placeholder="Password" name="password">
-        <button>Login</button>
+        <button id="studentLoginButton">Student Login</button> <!-- Add an ID for Student Login -->
+        <button id="staffLoginButton">Staff Login</button> <!-- Add an ID for Staff Login -->
     </div>
 </body>
 </html>
