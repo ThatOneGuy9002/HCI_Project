@@ -7,13 +7,15 @@ body {
 
 .sidebar {
     width: 200px;
-    background-color: #6a5acd; 
+    background-color: #6a5acd;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     padding: 20px 0;
     height: 100vh;
+    border-top-right-radius: 20px; 
+    border-bottom-right-radius: 20px; 
 }
 
 .sidebar .profile img {
@@ -65,8 +67,8 @@ body {
     margin-bottom: 10px;
 }
 
-.card {
-    background-color: white;
+.homeworkCard {
+    background-color: lightgray;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     padding: 10px;
@@ -92,4 +94,8 @@ body {
 .card-link .card:hover {
     transform: scale(1.02); /* Slightly enlarges the card on hover */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Adds a shadow for emphasis */
+}
+
+.card-due {
+   
 }
