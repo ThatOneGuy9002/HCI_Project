@@ -11,7 +11,7 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 20px 0;
     height: 100vh;
 }
@@ -21,24 +21,29 @@ body {
     height: 80px;
     border-radius: 50%;
     background-color: white;
-    margin-bottom: 20px; /* Added missing unit 'px' */
+    margin-bottom: 20px; 
+    margin-left: 50px;
 }
 
 .sidebar nav ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+    width: 100%;
 }
 
 .sidebar nav ul li {
-    margin: 20px 0;
     padding: 10px 20px;
+    margin-bottom: 25px;
     text-align: left;
     cursor: pointer;
 }
 
 .sidebar nav ul li:hover {
     background-color: #7d70db;
+}
+
+.footer-menu {
+    margin-top: 300px;
 }
 
 /* Main Content */

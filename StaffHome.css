@@ -18,13 +18,14 @@ body {
 }
 
 .sidebar {
-    background-color: #6a5acd;
-    color: white;
     width: 200px;
-    padding: 20px 0;
+    background-color: #6a5acd; 
+    color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 0;
+    height: 100vh;
 }
 
 .sidebar .profile img {
@@ -32,7 +33,8 @@ body {
     height: 80px;
     border-radius: 50%;
     background-color: white;
-    margin-bottom: 20px;
+    margin-bottom: 1px;
+    margin-left: 50px;
 }
 
 .nav-menu ul {
@@ -43,6 +45,7 @@ body {
 
 .nav-menu ul li {
     padding: 10px 20px;
+    margin-bottom: 25px;
     text-align: left;
     cursor: pointer;
 }
@@ -52,7 +55,7 @@ body {
 }
 
 .footer-menu {
-    margin-top: auto;
+    margin-top: 300px;
 }
 
 .content {
