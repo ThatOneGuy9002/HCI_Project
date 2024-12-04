@@ -18,7 +18,7 @@ body {
 }
 
 .sidebar {
-    width: 200px;
+    width:300px;
     background-color: #6a5acd; 
     color: white;
     display: flex;
@@ -26,6 +26,8 @@ body {
     justify-content: flex-start;
     padding: 20px 0;
     height: 100vh;
+    border-top-right-radius: 20px; 
+    border-bottom-right-radius: 20px; 
 }
 
 .sidebar .profile img {

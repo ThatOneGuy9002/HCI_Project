@@ -6,7 +6,7 @@ body {
 }
 
 .sidebar {
-    width: 200px;
+    width: 400px;
     background-color: #6a5acd;
     color: white;
     display: flex;
@@ -76,24 +76,62 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 14px;
+    font-size: 16px;
 }
+
+.homeworkDescriptionCard {
+    background-color: lightgray;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    font-size: 16px;
+    flex-wrap: wrap; 
+    width: auto;
+}
+
+
+.homeworkUploadCard {
+    background-color: lightgray;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 16px;
+    flex-wrap: wrap; 
+    width: 25vw; 
+    max-width: 100%; 
+}
+
+img {
+    max-width: 100%; 
+    height: auto; 
+    width: 50%; 
+}
+
 
 
 
 .card-link {
-    text-decoration: none; /* Removes underline */
-    color: inherit; /* Ensures the text takes the card's text color */
+    text-decoration: none;
+    color: inherit; 
 }
 
 .card-link .card {
-    cursor: pointer; /* Changes the mouse pointer to indicate clickable */
-    transition: transform 0.2s, box-shadow 0.2s; /* Adds hover effect */
+    cursor: pointer; 
+    transition: transform 0.2s, box-shadow 0.2s; 
 }
 
 .card-link .card:hover {
-    transform: scale(1.02); /* Slightly enlarges the card on hover */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Adds a shadow for emphasis */
+    transform: scale(1.02); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
 }
 
 .card-due {
