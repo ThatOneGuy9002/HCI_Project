@@ -1,13 +1,78 @@
-body {
+.otherBody {
     margin: 0;
     font-family: Arial, sans-serif;
     display: flex;
     background-color: #f4f4f4;
+    color: #333;
+}
+
+.indexBody{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #6a5acd; 
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 24px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"], input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4caf50; 
+    color: white;
+}
+button:hover {
+    opacity: 0.9;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto 20px auto; 
+    width: 100px; 
+    height: 100px; 
+    background: #ddd;
+    border: 1px solid #ccc;
+    text-align: center;
+
+}
+
+
+.main-container {
+    display: flex;
 }
 
 .sidebar {
-    width: 400px;
-    background-color: #6a5acd;
+    width: 300px;
+    background-color: #6a5acd; 
     color: white;
     display: flex;
     flex-direction: column;
@@ -48,13 +113,21 @@ body {
     margin-top: 300px;
 }
 
-/* Main Content */
 .main-content {
     flex-grow: 1;
     padding: 20px;
 }
 
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
 .main-content h1 {
+    margin-top: 0;
+}
+
+.content h2 {
     margin-top: 0;
 }
 
@@ -65,6 +138,51 @@ body {
 .section h2 {
     font-size: 18px;
     margin-bottom: 10px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+
+
+.card-link {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.card-link .card {
+    cursor: pointer; 
+    transition: transform 0.2s, box-shadow 0.2s; 
+}
+
+.card-link .card:hover {
+    transform: scale(1.02); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+}
+
+.assignments, .messages {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.assignment-card, .message-card {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
 }
 
 .homeworkCard {
@@ -94,7 +212,6 @@ body {
     width: auto;
 }
 
-
 .homeworkUploadCard {
     background-color: lightgray;
     border-radius: 8px;
@@ -116,6 +233,9 @@ img {
     width: 50%; 
 }
 
+
+
+
 .card-link {
     text-decoration: none;
     color: inherit; 
@@ -130,3 +250,5 @@ img {
     transform: scale(1.02); 
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
 }
+
+
