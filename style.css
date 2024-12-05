@@ -299,7 +299,7 @@ button:hover {
 
 .doAssignmentButton:hover {
     background-color: #218838;
-    transform: scale(1.05);
+    transform: scale(1.01);
 }
 
 
@@ -321,4 +321,92 @@ button:hover {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
 }
 
+
+/* assingnment form */
+
+.formBody {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.formHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #6a5acd;
+    color: white;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.exitIcon {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+
+.homeworkForm {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+    box-sizing: border-box; 
+}
+
+
+.homeworkForm label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+.homeworkForm input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.formButtonContainer {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%; 
+}
+
+
+.formSubmitButton {
+    background-color: #28a745;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    cursor: pointer;
+    width: 1000px; 
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+.formSubmitButton:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
 
