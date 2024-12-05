@@ -67,6 +67,7 @@ body {
     margin-bottom: 10px;
 }
 
+/* StudentCurrentHomework */
 .homeworkCard {
     background-color: lightgray;
     border-radius: 8px;
@@ -115,6 +116,8 @@ img {
     height: auto; 
     width: 50%; 
 }
+
+
 
 .card-link {
     text-decoration: none;
