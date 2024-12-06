@@ -116,6 +116,18 @@ button:hover {
     transform: scale(1.005); 
 }
 
+.nav-menu ul li.active a {
+    background-color: #7d70db; 
+    color: white; 
+    border-radius: 8px; 
+    padding: 10px 30px; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+
+
+
 .footer-menu {
     margin-top: 300px;
 }
@@ -175,7 +187,9 @@ button:hover {
     font-weight: bold;
 }
 
-
+.past-card-due{
+    color: green;
+}
 
 .card-link {
     text-decoration: none; 
@@ -304,6 +318,22 @@ button:hover {
     padding: 20px;
     overflow: hidden;
     height: 200px;
+    margin: 0 auto; 
+
+}
+
+.markCard{
+    top: 390px;
+    right: 20px; 
+    width: 70%;
+    margin-left: 250px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow: hidden;
+    height: 80px;
     margin: 0 auto; 
 
 }
