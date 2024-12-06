@@ -484,3 +484,31 @@ button:hover {
     background-color: #218838;
     transform: scale(1.05);
 }
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+input, textarea, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px; /* Adds space between the two fields */
+    margin-bottom: 15px;
+}
+.form-row > div {
+    flex: 1; /* Each field takes up equal space */
+}

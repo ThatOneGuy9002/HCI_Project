@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="otherBody">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="profile">
+                <img src="images/pruksamanee.png" alt="Profile Icon">
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="StaffHome.html">Home</a></li>
+                    <li><a href="StaffAssignments.html">Assignments</a></li>
+                    <li><a href="StaffPastAssignments.html">Past Assignments</a></li>
+                    <li><a href="StaffSetAssignment.html">Set Assignment</a></li>
+                </ul>
+                <ul class="footer-menu">
+                    <li>Help</li>
+                    <li>Settings</li>
+                    <li>Logout</li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Content -->
+
+    <div class="main-content">
+        <form id="myForm">
+            <h2>Set Assignment</h2>
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required>
+            <div class = "form-row">
+                <div>
+                    <label for="class">Class:</label>
+                    <select id="class" name="class" required>
+                        <option value="" disabled selected>None</option>
+                        <option value="class1">Class 1</option>
+                        <option value="class2">Class 2</option>
+                        <option value="class3">Class 3</option>
+                        <option value="class4">Class 4</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="due">Due:</label>
+                    <input type="date" id="due" name="due" required>
+                </div>
+            </div>
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" rows="5" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <script src="scripts/SetAssignment.js"></script> 
+    </div>
+
+</body>
+</html>

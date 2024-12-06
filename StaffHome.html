@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="otherBody">
-    <div class="main-container">
         <!-- Sidebar -->
         <div class="sidebar">
             <div class="profile">
@@ -15,10 +14,10 @@
             </div>
             <nav class="nav-menu">
                 <ul>
-                    <li>Home</li>
-                    <li>Assignments</li>
-                    <li>Past Assignments</li>
-                    <li>Set Assignment</li>
+                    <li><a href="StaffHome.html">Home</a></li>
+                    <li><a href="StaffAssignments.html">Assignments</a></li>
+                    <li><a href="StaffPastAssignments.html">Past Assignments</a></li>
+                    <li><a href="StaffSetAssignment.html">Set Assignment</a></li>
                 </ul>
                 <ul class="footer-menu">
                     <li>Help</li>
@@ -29,21 +28,47 @@
         </div>
 
         <!-- Content -->
-        <div class="content">
-            <h2>Welcome, Dave!</h2>
-            <div class="assignments">
-                <h3>Next Assignments:</h3>
-                <div class="assignment-card">Class 1 - Homework Name - Due: 8/11</div>
-                <div class="assignment-card">Class 2 - Homework Name - Due: 13/11</div>
-                <div class="assignment-card">Class 3 - Homework Name - Due: 14/11</div>
+
+    <div class="main-content">
+        <h1>Welcome, Dave!</h1>
+        <div class="section">
+            <h2 class = "studentHomeHeader">Next Assignments:</h2>
+            <a href="StudentCurrentHomework.html" class="card-link">
+                <div class="card">
+                    <span>Class 1</span>
+                    <span>Homework Name</span>
+                    <span>Due: 8/11</span>
+                </div>
+            </a>
+            <a href="StudentCurrentHomework.html" class="card-link">            
+            <div class="card">
+                <span>Class 2</span>
+                <span>Homework Name</span>
+                <span>Due: 13/11</span>
             </div>
-            <div class="messages">
-                <h3>Messages:</h3>
-                <div class="message-card"><strong>Dave Pruksamanee:</strong> Lorem ipsum dolor sit amet...</div>
-                <div class="message-card"><strong>Claude Dubois:</strong> Lorem ipsum dolor sit amet...</div>
-                <div class="message-card"><strong>Headmaster:</strong> Lorem ipsum dolor sit amet...</div>
+            <a href="StudentCurrentHomework.html" class="card-link">
+            <div class="card">
+                <span>Class 3</span>
+                <span>Homework Name</span>
+                <span>Due: 14/11</span>
             </div>
         </div>
-    </div>
+        <div class="section">
+            <h2 class ="studentHomeHeader">Messages:</h2>
+            <a href="StudentAnnouncement.html" class="card-link">
+            <div class="card">
+                <span><strong>Dave Pruksamanee:</strong></span>
+                <span>Lorem ipsum dolor sit amet...</span>
+            </div>
+            <div class="card">
+                <span><strong>Claude Dubois:</strong></span>
+                <span>Lorem ipsum dolor sit amet...</span>
+            </div>
+            <div class="card">
+                <span><strong>Headmaster:</strong></span>
+                <span>Lorem ipsum dolor sit amet...</span>
+            </div>
+        </div>
+
 </body>
 </html>
