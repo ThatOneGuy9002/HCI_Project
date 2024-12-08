@@ -574,3 +574,8 @@ label {
     color: black;
     text-decoration: none;
 }
+
+.exit-button{
+    height: 40px;
+    width: 80px;
+}
