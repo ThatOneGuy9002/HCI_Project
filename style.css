@@ -15,6 +15,11 @@
     background-color: #f4f4f4;
 }
 
+.input-error {
+    background-color: #eec6c6b4;
+    border: 2px solid red;
+}
+
 .header {
     background-color: #6a5acd; 
     color: white;
@@ -554,7 +559,7 @@ label {
 
 .progress-bar {
     height: 25px;
-    width: 70%;
+    width: 90%;
     background-color: #77BC5E;
     color: #ffffff;
     text-align: left;
