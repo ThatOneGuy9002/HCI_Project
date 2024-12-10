@@ -121,9 +121,10 @@ button:hover {
     transform: scale(1.005); 
 }
 
-.nav-menu ul li.active a {
+.sidebar nav li.active {
     background-color: #7d70db;
-    transform: scale(1.005);
+    transform: scale(0.95);
+    border-radius: 2px;
 }
 
 
