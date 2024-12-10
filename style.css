@@ -122,12 +122,8 @@ button:hover {
 }
 
 .nav-menu ul li.active a {
-    background-color: #7d70db; 
-    color: white; 
-    border-radius: 8px; 
-    padding: 10px 30px; 
-    text-decoration: none; 
-    font-weight: bold; 
+    background-color: #7d70db;
+    transform: scale(1.005);
 }
 
 
