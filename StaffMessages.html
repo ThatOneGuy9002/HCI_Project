@@ -18,8 +18,8 @@
                     <li><a href="StaffHome.html"><i class="fa-solid fa-house"></i>&nbsp; Home</a></li>
                     <li><a href="StaffAssignments.html"><i class="fa-solid fa-file-half-dashed"></i>&nbsp; Assignments</a></li>
                     <li><a href="StaffPastAssignments.html"><i class="fa-solid fa-file"></i>&nbsp; Past Assignments</a></li>
-                    <li class="active"><a href="StaffSetAssignment.html"><i class="fa-solid fa-file-pen"></i>&nbsp; Set Assignment</a></li>
-                    <li><a href="StaffMessages.html"><i class="fa-solid fa-comment"></i>&nbsp; Messages</a></li>
+                    <li><a href="StaffSetAssignment.html"><i class="fa-solid fa-file-pen"></i>&nbsp; Set Assignment</a></li>
+                    <li class = "active"><a href="StaffMessages.html"><i class="fa-solid fa-comment"></i>&nbsp; Messages</a></li>
                 </ul>
                 <ul class="footer-menu">
                     <li><a href="StaffHelp.html"><i class="fa-solid fa-circle-info"></i>&nbsp; Help</a></li>
@@ -28,36 +28,31 @@
                 </ul>
             </nav>
         </div>
-
-        <!-- Content -->
-
-    <div class="main-content">
-        <form id="myForm">
-            <h2>Set Assignment</h2>
-            <label for="title">Title:</label>
-            <input type="text" id="title" name="title" required>
-            <div class = "form-row">
-                <div>
-                    <label for="class">Class:</label>
-                    <select id="class" name="class" required>
-                        <option value="" disabled selected>None</option>
-                        <option value="class1">Class 1</option>
-                        <option value="class2">Class 2</option>
-                        <option value="class3">Class 3</option>
-                        <option value="class4">Class 4</option>
-                    </select>
+        <div class="main-content">
+            <div class="section">
+                <h2 class = "studentHomeHeader">Current Assignments:</h2>
+                <a href="StaffMessage.html" class="card-link">
+                    <div class="card">
+                        <span><strong>Claude Dubois:</strong></span>
+                        <span>Hi Dave, I think I might have...</span>
+                    </div>
+                </a>
+                <a href="StaffMessage.html" class="card-link">            
+                <div class="card">
+                    <span><strong>Mike Paws:</strong></span>
+                    <span>Information about sports club...</span>
                 </div>
-                <div>
-                    <label for="due">Due:</label>
-                    <input type="date" id="due" name="due" required>
+                <a href="StaffMessage.html" class="card-link">
+                <div class="card">
+                    <span><strong>Headmaster:</strong></span>
+                    <span>Weekly Roundup...</span>
                 </div>
+                <a href="StaffMessage.html" class="card-link">
+                    <div class="card">
+                        <span><strong>Headmaster:</strong></span>
+                        <span>Winter Break...</span>
+                    </div>
             </div>
-            <label for="description">Description:</label>
-            <textarea id="description" name="description" rows="5" required></textarea>
-            <button type="submit">Submit</button>
-        </form>
-        <script src="scripts/SetAssignment.js"></script> 
-    </div>
-
+        </div>
 </body>
 </html>
