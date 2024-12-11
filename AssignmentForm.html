@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment Form</title>
     <link rel="stylesheet" href="style.css">
-    <script src="AssignmentForm.js" defer></script>
     <script src="scripts/confirmButton.js"></script> 
 
 </head>
@@ -14,7 +13,7 @@
         <img src="images/exit.png" alt="Exit Icon" class="exitIcon" onclick="confirmAction()">
         <span>How Biomes Influence Human Settlements</span>
     </div>
-    <form class="homeworkForm">
+    <form class="homeworkForm" id = "homeworkForm">
         <label for="question1">Q1. In what ways have forest biomes supported agricultural development and urban expansion?</label>
         <input type="text" id="question1" name="question1" placeholder="Enter your answer here..." required>
         
@@ -39,6 +38,7 @@
         <div class="formButtonContainer">
             <button type="submit" class="formSubmitButton">Submit</button>
         </div>
+        <script src="scripts/AssignmentForm.js"></script>
     </form>
 </body>
 </html>

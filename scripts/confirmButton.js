@@ -4,3 +4,4 @@ function confirmAction() {
         window.history.back();
     }
 }
+
