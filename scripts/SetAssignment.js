@@ -10,12 +10,12 @@ const form = document.getElementById('myForm');
 
             const confirmation = `
                 Please confirm your details:
-                ---------------------------------
+
                 Title: ${title}
                 Class: ${classes}
                 Due Date: ${due}
                 Description: ${description}
-                ---------------------------------
+
                 Are these details correct?
             `;
 
