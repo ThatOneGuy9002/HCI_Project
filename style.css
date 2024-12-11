@@ -16,9 +16,9 @@
 }
 
 .book-icon {
-    font-size: 100px; /* Adjust size as needed */
-    color: #333; /* Optional: Set a color */
-    margin: 20px 0; /* Add spacing around the icon */
+    font-size: 100px; 
+    color: #333; 
+    margin: 20px 0; 
     margin-left: 925px;
 }
 
@@ -99,8 +99,8 @@ button:hover {
     height: 100vh;
     border-top-right-radius: 20px; 
     border-bottom-right-radius: 20px; 
-    flex-shrink: 0; /* Prevents sidebar from shrinking */
-    flex-grow: 0;   /* Prevents sidebar from growing */
+    flex-shrink: 0; 
+    flex-grow: 0; 
 }
 
 .sidebar .profile img {
