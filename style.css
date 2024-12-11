@@ -15,6 +15,14 @@
     background-color: #f4f4f4;
 }
 
+.book-icon {
+    font-size: 100px; /* Adjust size as needed */
+    color: #333; /* Optional: Set a color */
+    margin: 20px 0; /* Add spacing around the icon */
+    margin-left: 925px;
+}
+
+
 .input-error {
     background-color: #eec6c6b4;
     border: 2px solid red;
