@@ -564,6 +564,16 @@ label {
     font-size: 14px;
 }
 
+.progress-bar-2 {
+    height: 25px;
+    width: 50%;
+    background-color: #77BC5E;
+    color: #ffffff;
+    text-align: left;
+    line-height: 25px;
+    font-size: 14px;
+}
+
 .link-text{
     text-align: center;
     vertical-align: middle;
